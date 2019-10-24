@@ -1,0 +1,64 @@
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\ApplicationInsights.config
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\csc.exe
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\vbc.exe
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\VBCSCompiler.exe
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Diaz Ruiz_T2_Diars.dll.config
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Diaz Ruiz_T2_Diars.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Diaz Ruiz_T2_Diars.pdb
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Antlr3.Runtime.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\EntityFramework.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\EntityFramework.SqlServer.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.Web.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Newtonsoft.Json.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Helpers.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Mvc.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Optimization.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Razor.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.WebPages.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.WebPages.Razor.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\WebGrease.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\EntityFramework.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\EntityFramework.SqlServer.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.Web.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Helpers.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Mvc.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Optimization.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.Razor.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.WebPages.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\System.Web.WebPages.Razor.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Antlr3.Runtime.pdb
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\Newtonsoft.Json.xml
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\es\System.Web.Helpers.resources.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\es\System.Web.Mvc.resources.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\es\System.Web.Optimization.resources.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\es\System.Web.Razor.resources.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\es\System.Web.WebPages.resources.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\obj\Debug\Diaz Ruiz_T2_Diars.csprojResolveAssemblyReference.cache
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\obj\Debug\Diaz Ruiz_T2_Diars.dll
+C:\Users\JOSE LUIS\Documents\Visual Studio 2015\Projects\Diaz Ruiz_T2_Diars\Diaz Ruiz_T2_Diars\obj\Debug\Diaz Ruiz_T2_Diars.pdb

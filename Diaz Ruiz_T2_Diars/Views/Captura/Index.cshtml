@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Capturas</h2>
+<a class="btn btn-primary pull-left" href="/Entrenador/Index"> Volver</a>
+<div class="container">
+ 
+    <div class="row">
+
+        <div class="col-sm-5">
+            
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <div>
+        <a class="btn btn-primary pull-right" href="/Captura/Crear?id=@ViewBag.IdEntrenador"><span class="glyphicon glyphicon-plus"></span> Capturar</a>
+        <br />
+    </div>
+    
+    <br />
+
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Pokemon</th>
+                        <th class="text-center">Opcion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.IdCaptura</td>
+                            <td>@item.Pokemon.Nombre</td>
+                            <td>
+                                <a class="btn btn-danger" href="/Captura/Eliminar?id=@item.IdCaptura">Liberar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

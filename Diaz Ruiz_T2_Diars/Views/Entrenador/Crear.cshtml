@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Crear";
+}
+
+<h2>Crear</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center"><h3>Crear entrenador</h3></div>
+                <div class="panel-body">
+
+                    <form action="/Entrenador/Crear" method="post">
+
+                        <div>
+                            <label class="control-label">Nombre :</label>
+                            <input class="form-control" type="text" name="Nombre" value="@Model.Nombre" />
+                            @Html.ValidationMessage("Nombre")
+                        </div>
+
+                        <div>
+                            <label class="control-label">Ciudad :</label>
+                            <select class="form-control" name="Ciudad">
+                                <option value="Ciudad1">Ciudad1</option>
+                                <option value="Ciudad2">Ciudad2</option>
+                                <option value="Ciudad3">Ciudad3</option>
+                                <option value="Ciudad4">Ciudad4</option>
+                                <option value="Ciudad5">Ciudad5</option>
+                            </select>
+                            @Html.ValidationMessage("Ciudad")
+                        </div>
+
+                        <br />
+
+                        <button class="btn btn-primary"><span class="glyphicon glyphicon-saved"></span> Guardar</button>
+
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

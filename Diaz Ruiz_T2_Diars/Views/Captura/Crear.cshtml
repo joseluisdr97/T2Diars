@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Crear";
+}
+
+<br />
+<br />
+<br />
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center"><h3>Capturar</h3></div>
+                <div class="panel-body">
+
+                    <form action="/Captura/Crear?id=@ViewBag.IdEntrenador" method="post">
+
+                        <select class="form-control" name="IdPokemon">
+                            @foreach(var item in ViewBag.Pokemones)
+                            {
+                                <option value="@item.IdPokemon">@item.Nombre</option>
+                            }
+                        </select>
+                          
+                        @Html.ValidationMessage("IdPokemon")
+                        
+                        <br />
+
+                        <button class="btn btn-primary"><span class="glyphicon glyphicon-saved"></span> Guardar</button>
+
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

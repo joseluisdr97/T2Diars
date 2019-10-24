@@ -1,0 +1,335 @@
+﻿
+@{
+    ViewBag.Title = "practicaJavaScript";
+}
+
+<h2>Instrucciones de salida de javascript</h2>
+<p id="miParrafo">Mi parrafo de prueba</p>
+
+<script>
+    window.alert("Hola sot una alerta");//Escribir una alerta
+    document.write("<h2> Escribir en html</h2>");//Escribir texto
+    document.getElementById("miParrafo").innerHTML = "Este es el texto cambiado del parrafo";//Seleccionar por id y cambiarlo de texto
+    console.log = "Este es texto en la consola";//Escribir en la consola
+
+    document.write("<h2> ..............Funcion hola..........................................................................................</h2>");//Escribir texto
+
+    function hola() {
+        alert("Hola jose luis");
+    }
+
+    var a;//Todas las variables son con var
+</script>
+
+<button onclick="hola()">Evento onclick con funcion hola</button><!--El evento onclick es cuando hago un click que debo hacer-->
+
+
+<script>
+    //VARIABLES
+
+    var cadena = "Esta es una cadena";
+    var numero = 10;
+    var bool = true;//Booleana
+    var arreglo = [1, 2, 3, "Letras", "etc"];
+    var objeto = { nombre: "Jose", apellido: "diaz", edad: 22 };
+    var fecha = new date;
+    var mifuncion = function mifun() { alert("Hola soy una funcion") };
+    var funcionAnonima = function () { alert("Funcion anonima") };
+
+</script>
+
+
+<h2>Modelo de eventos en linea</h2>
+<h3 id="cab1" 
+    onclick="this.innerHTML='Javascript en XHTML'"
+    onmouseover="this.style.background='Red'"
+    onmouseout="this.style.background='white'"
+    >Pulsa para ver lo que pasa aqui con eventos </h3>
+<!--Evento onclick Cuando damos click-->
+<!--Evento onmouseover Cuando ponemos el mause sobre el elemento-->
+<!--Evento onmouseout cuando sacamos el mouse del elemento-->
+
+
+<h2>Modelo de registro tradicional</h2>
+<h3 id="tradicional">Pulsa para ver aqui lo que pasa</h3>
+
+
+
+<script>
+    //otra forma de asignar eventos
+    document.getElementById("tradicional").onclick = function () {
+        document.getElementById("tradicional").innerHTML = "Modelo de registro tradicionales";
+    }
+</script>
+
+
+
+<h1>Modelo de eventos avanzados del W3C</h1>
+<h3 id="w3c">Modelo del W3C</h3>
+<h3 id="w3canonima">Modelo del W3C con funciones anónimas</h3>
+
+<script>
+        /* elemento.addEventListener("<evento_sin_on>",<funcion>,<false|true>); */
+        document.getElementById("w3c").addEventListener("click", saludarUnaVez, false);
+        document.getElementById("w3c").addEventListener("click", colorearse, false);
+        document.getElementById("w3c").addEventListener("mouseover", fondo, false);
+        function saludarUnaVez() {
+            alert("¡Hola, caracola!");
+            document.getElementById("w3c").removeEventListener("click", saludarUnaVez);
+        }
+        function colorearse() {
+            document.getElementById("w3c").style.color = "red";
+        }
+        function fondo() {
+            document.getElementById("w3c").style.background = "blue";
+        }
+        /* Funciones anónimas */
+        /* elemento.addEventListener("<evento_sin_on>",function(){<codigo_funcion}),false); */
+        document.getElementById("w3canonima").addEventListener("click", function () {
+            this.style.background = "#C0C0C0";
+        });
+</script>
+
+<input id="textoPrueba" type="text" class="form-control" />
+<p class="textoResultado"></p>
+<p class="textoResultado"></p>
+<p class="textoResultado"></p>
+<p class="textoResultado"></p>
+<p class="textoResultado"></p>
+
+<script>
+    $("#textoPrueba").keyup(function () {
+        var valor = $("#textoPrueba").val()
+        $(".textoResultado").html("<h1>Hola Mundo</h1>");
+    });
+</script>
+
+
+
+
+
+
+
+
+
+<h1 id="eventos">Obtener información de un evento</h1>
+<h2 id="parrafo1">Párrafo 1</h2>
+<h2 id="parrafo2">Párrafo 2</h2>
+<script>
+        document.getElementById("eventos").addEventListener("mouseover", manejador);
+        document.getElementById("eventos").addEventListener("mouseout", manejador);
+        document.getElementById("parrafo1").addEventListener("click", saludo);
+        document.getElementById("parrafo2").addEventListener("click", saludo);
+        function manejador(e) {
+            //Valoramos la posibilidad de que se utilice un navegador de Microsoft
+            if (!e) e = window.event;
+            switch (e.type) {
+            case "mouseover":
+                this.style.color = "purple";
+                break;
+            case "mouseout":
+                this.style.color = "yellow";
+                break;
+            }
+        }
+        function saludo(e) {
+            //Valoramos la posibilidad de que se utilice un navegador de Microsoft
+            if (!e) e = window.event;
+            if (e.target.id == "parrafo1") alert("Has pulsado el primer párrafo");
+            else if (e.target.id == "parrafo2") alert("Has pulsado el segundo párrafo");
+            alert("Has pulsado el " + e.target.id);
+        }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<h1>Formulario</h1>
+<form action="procesar.php" method="post" id="miFormulario">
+    <table>
+        <tr>
+            <td>Nombre: </td>
+            <td>
+                <input type="text" name="nombre" id="nombre" />
+            </td>
+        </tr>
+        <tr>
+            <td>Telefono: </td>
+            <td>
+                <input type="text" name="telefono" id="telefono" />
+            </td>
+        </tr>
+        <tr>
+            <td>Fecha de nacimiento: </td>
+            <td>
+                <input type="text" name="dia" size="2" id="dia" />
+                <input type="text" name="mes" size="2" id="mes" />
+                <input type="text" name="ano" id="ano" size="4" />
+            </td>
+        </tr>
+        <tr>
+            <td>Sexo : </td>
+            <td>
+                <input type="radio" name="sexo" value="H" checked /> Hombre
+                <input type="radio" name="sexo" value="M" /> Mujer
+            </td>
+        </tr>
+        <tr>
+            <td>Mayor de 18:</td>
+            <td>
+                <input type="checkbox" name="mayor" id="mayor" checked />
+            </td>
+        </tr>
+        </td>
+        </tr>
+    </table>
+    <p>
+        <input type="submit" value="Enviar" id="enviar" />
+        <input type="reset" value="Borrar" id="borrar" />
+    </p>
+</form>
+
+<script>
+    //SELECCION DEL FORMULARIO
+
+    //Conociendo el id
+    var formulario = document.getElementById("miFormulario");
+    var formulario2 = document.forms["miFormulario"];
+
+    //Conociendo el número de formulario que es en la página
+    var formulario3 = document.getElementsByTagName("form")[0];
+    var formulario4 = document.forms[0];
+
+    //SELECCIONAR ELEMENTOS DE UN FORMULARIO
+    //.elements[] Devuelve un array con todos los input del formulario
+    //getElementById("idElemento") Devuelve un elemento con un id determinado
+    //getElementsByTagName("etiqueta") Devuelve un array con elementos de un tipo de etiqueta (input, select, etc.)
+    //getElementsByName("nombre") Devuelve un array con elementos que tienen el mismo nombre (por ejemplo, radiobutton).
+
+    window.onload = iniciar; //Sin paréntesis
+
+    function iniciar() {
+        document.getElementById("enviar").addEventListener('click', validar, false);
+    }
+
+    function validaNombre() {
+        var elemento = document.getElementById("nombre");
+        limpiarError(elemento);
+        if (elemento.value == "") {
+            alert("El campo no puede ser vacío");
+            error(elemento);
+            return false;
+        }
+        return true;
+    }
+
+    function validaTelefono() {
+        var elemento = document.getElementById("telefono");
+        if (isNaN(elemento.value)) {
+            alert("El campo teléfono tiene que ser numérico");
+            return false;
+        }
+        return true;
+    }
+
+    function validaFecha() {
+        var dia = document.getElementById("dia").value;
+        var mes = document.getElementById("mes").value;
+        var ano = document.getElementById("ano").value;
+
+        var fecha = new Date(ano, mes, dia);
+        if (isNaN(fecha)) {
+            alert("Los campos de la fecha son incorrectos");
+            return false;
+        }
+        return true;
+    }
+
+    function validaCheck() {
+        var campoCheck = document.getElementById("mayor");
+        if (!campoCheck.checked) {
+            alert("Debes ser mayor de edad");
+            return false
+        }
+        return true;
+    }
+
+    function validar(e) {
+        if (validaNombre() && validaTelefono() && validaFecha() && validaCheck() && confirm("Pulsa aceptar si deseas enviar el formulario")) {
+            return true;
+        } else {
+            e.preventDefault();
+            return false;
+        }
+    }
+
+    function error(elemento) {
+        elemento.className = "error";
+        elemento.focus();
+    }
+
+    function limpiarError(elemento) {
+        elemento.className = "";
+    }
+</script>
+
+
+
+
+
+
+
+<div id="main">
+    <p id="parrafo1">Este es el primer párrafo</p>
+    <p id="parrafo2">Este es el segundo párrafo</p>
+    <p id="parrafo3" class="miClase">Este es el tercer párrafo</p>
+</div>
+<br />
+<button id="cambiarTextos">Cambiar texto de párrafos</button>
+<button id="cambiarClases">Cambiar clases de párrafos</button>
+<button id="quitarClases">Quitar clases de todos los párrafos</button>
+
+<script>
+            window.addEventListener("load",inicio);
+
+            function inicio(){
+                document.getElementById("cambiarTextos").addEventListener("click",cambiarTextos);
+                document.getElementById("cambiarClases").addEventListener("click",cambiarClases);
+                document.getElementById("quitarClases").addEventListener("click",quitarClases);
+            }
+
+            function cambiarTextos(){
+                //Selecciónar UN UNICO elemento según su id
+                document.getElementById("parrafo1").innerHTML = "Primer párrafo cambiado";
+                //Selecionar TODOS los elementos según su etiqueta
+                document.getElementsByTagName("p")[1].innerHTML = "Segundo párrafo cambiado";
+                //Seleccionar TODOS los elementos según su clase
+                document.getElementsByClassName("miClase")[0].innerHTML = "Tercer párrafo cambiado";
+
+                //Seleccionar un elemento dentro de otro
+                var principal = document.getElementById("main");
+                var parrafo1 = principal.getElementById("parrafo1");
+
+                //Sleecionar el PRIMER elemento con un selector CSS
+                /*document.querySelector("p.miClase");
+                document.querySelector("p.miClase")[0];*/
+            }
+
+            function cambiarClases(){
+                document.getElementById("parrafo1").setAttribute("class","miClase");
+                document.getElementById("parrafo2").className = "miClase";
+            }
+
+            function quitarClases(){
+                for(var i = 0; i<document.getElementsByTagName("p").length; i++){
+                    document.getElementsByTagName("p")[i].className="";
+                }
+            }
+</script>

@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<a href="/Entrenador/Index">Entrenadores</a>
+<div class="container">
+    <label class="control-label">Ingrese Nombre :</label>
+    <div class="row">
+        <form action="/Pokemon/Index">
+            <div class="col-sm-4">
+                <input class="form-control" type="text" name="query" value="@ViewBag.datos" placeholder="Ingrese nombre" />
+            </div>
+            <div class="col-sm-2">
+                <button class="btn btn-success"><span class="glyphicon glyphicon-search"></span> Buscar</button>
+            </div>
+        </form>
+        <div class="col-sm-5">
+            <a class="btn btn-primary pull-right" href="/Pokemon/Crear"><span class="glyphicon glyphicon-plus"></span> Crear</a>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+
+    <br />
+
+    <div class="row">
+        <div class="col-sm-11 text-center">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.IdPokemon</td>
+                            <td>@item.Nombre</td>
+                            <td>@item.Tipo</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+
